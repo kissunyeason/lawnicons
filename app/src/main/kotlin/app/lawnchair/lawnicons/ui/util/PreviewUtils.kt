@@ -6,27 +6,34 @@ import androidx.compose.ui.tooling.preview.Wallpapers
 import app.lawnchair.lawnicons.model.IconInfo
 import kotlinx.collections.immutable.persistentListOf
 
+/**
+ * Preview class for Lawnicons composables.
+ */
 @Preview(
     name = "Normal",
     showBackground = true,
     wallpaper = Wallpapers.NONE,
+    apiLevel = 33
 )
 @Preview(
     name = "Normal Night",
     showBackground = true,
     uiMode = Configuration.UI_MODE_NIGHT_YES,
     wallpaper = Wallpapers.NONE,
+    apiLevel = 33
 )
 @Preview(
     name = "Themed",
     showBackground = true,
     wallpaper = Wallpapers.RED_DOMINATED_EXAMPLE,
+    apiLevel = 33
 )
 @Preview(
     name = "Themed Night",
     showBackground = true,
     uiMode = Configuration.UI_MODE_NIGHT_YES,
     wallpaper = Wallpapers.RED_DOMINATED_EXAMPLE,
+    apiLevel = 33
 )
 annotation class PreviewLawnicons
 

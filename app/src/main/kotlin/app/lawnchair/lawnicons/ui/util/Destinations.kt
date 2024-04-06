@@ -6,4 +6,5 @@ object Destinations {
     const val ACKNOWLEDGEMENT = "acknowledgement"
     const val ABOUT = "about"
     const val CONTRIBUTORS = "contributors"
+    const val REQUEST_ICONS = "request_icons"
 }

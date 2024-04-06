@@ -26,7 +26,7 @@ class IconRepository @Inject constructor(application: Application) {
     private var iconInfoAppfilter: List<IconInfoAppfilter>? = null
     private var iconInfoAppfilterModel = MutableStateFlow<IconInfoAppfilterModel?>(value = null)
     private val coroutineScope = CoroutineScope(Dispatchers.IO)
-    private var packageList: List<IconInfoAppfilter>? = null
+    private var systemPackageList: List<IconInfoAppfilter>? = null
 
     val requestedIconList = MutableStateFlow<IconRequestModel?>(value = null)
     val iconInfoModel = MutableStateFlow<IconInfoModel?>(value = null)
@@ -58,14 +58,14 @@ class IconRepository @Inject constructor(application: Application) {
                     )
                 }
 
-            packageList = application.getIconInfoPackageList()
+            systemPackageList = application.getIconInfoPackageList()
                 .associateBy { it.name }.values
                 .sortedBy { it.name.lowercase() }
         }
     }
 
     suspend fun getRequestedIcons() = withContext(Dispatchers.Default) {
-        requestedIconList.value = packageList?.let { packageList ->
+        requestedIconList.value = systemPackageList?.let { packageList ->
             val lawniconsData = iconInfoAppfilterModel.value?.iconInfo?.map {
                 IconInfoAppfilter(
                     it.name,
@@ -85,13 +85,13 @@ class IconRepository @Inject constructor(application: Application) {
 
             val commonItems = lawniconsData intersect systemData.toSet()
 
-            val iconRequest = commonItems.map {
+            val iconsRequested = commonItems.map {
                 IconRequest(it.name, it.componentName)
             }
 
             IconRequestModel(
-                requestedIcons = iconRequest.toImmutableList(),
-                iconCount = iconRequest.size,
+                list = iconsRequested.toImmutableList(),
+                iconCount = iconsRequested.size,
             )
         }
     }

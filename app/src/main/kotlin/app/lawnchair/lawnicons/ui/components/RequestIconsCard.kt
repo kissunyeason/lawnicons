@@ -1,4 +1,4 @@
-package app.lawnchair.lawnicons.ui.components.home
+package app.lawnchair.lawnicons.ui.components
 
 import android.content.Intent
 import android.net.Uri
@@ -9,13 +9,16 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import app.lawnchair.lawnicons.ui.components.core.SimpleListRow
+import app.lawnchair.lawnicons.ui.util.PreviewLawnicons
 
+@PreviewLawnicons
 @Composable
-fun UnthemedIconsInfo(
-    iconCount: Int,
-    request: String,
+fun RequestIconsCard(
+    request: String = "",
+    iconCount: Int = 0,
 ) {
     val context = LocalContext.current
+
     Card(
         onClick = {
             val website = Uri.parse(request)

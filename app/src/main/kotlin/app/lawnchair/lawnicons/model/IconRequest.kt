@@ -8,6 +8,6 @@ data class IconRequest(
 )
 
 data class IconRequestModel(
-    val requestedIcons: ImmutableList<IconRequest>,
+    val list: ImmutableList<IconRequest>,
     val iconCount: Int,
 )

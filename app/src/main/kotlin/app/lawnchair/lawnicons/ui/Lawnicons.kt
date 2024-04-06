@@ -20,6 +20,7 @@ import app.lawnchair.lawnicons.ui.destinations.Acknowledgement
 import app.lawnchair.lawnicons.ui.destinations.Acknowledgements
 import app.lawnchair.lawnicons.ui.destinations.Contributors
 import app.lawnchair.lawnicons.ui.destinations.Home
+import app.lawnchair.lawnicons.ui.destinations.RequestIcons
 import app.lawnchair.lawnicons.ui.theme.LawniconsTheme
 import app.lawnchair.lawnicons.ui.util.Destinations
 import soup.compose.material.motion.animation.materialSharedAxisXIn
@@ -67,6 +68,9 @@ fun Lawnicons(windowSizeClass: WindowSizeClass) {
                         onBack = navController::popBackStack,
                         isExpandedScreen = isExpandedScreen,
                     )
+                }
+                composable(route = Destinations.REQUEST_ICONS) {
+                    RequestIcons(onBack = navController::popBackStack, isExpandedScreen = isExpandedScreen)
                 }
                 composable(route = Destinations.ABOUT) {
                     About(onBack = navController::popBackStack, onNavigate = navController::navigate, isExpandedScreen = isExpandedScreen)

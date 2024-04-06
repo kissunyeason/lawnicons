@@ -20,8 +20,8 @@ import app.lawnchair.lawnicons.R
 import app.lawnchair.lawnicons.ui.components.home.IconPreviewGrid
 import app.lawnchair.lawnicons.ui.components.home.LawniconsSearchBar
 import app.lawnchair.lawnicons.ui.components.home.PlaceholderSearchBar
-import app.lawnchair.lawnicons.ui.components.home.RequestIcons
 import app.lawnchair.lawnicons.ui.theme.LawniconsTheme
+import app.lawnchair.lawnicons.ui.util.Destinations
 import app.lawnchair.lawnicons.ui.util.PreviewLawnicons
 import app.lawnchair.lawnicons.ui.util.SampleData
 import app.lawnchair.lawnicons.viewmodel.LawniconsViewModel
@@ -36,9 +36,7 @@ fun Home(
 ) {
     val iconInfoModel by lawniconsViewModel.iconInfoModel.collectAsState()
     val searchedIconInfoModel by lawniconsViewModel.searchedIconInfoModel.collectAsState()
-    val requestedIcons by lawniconsViewModel.requestedIcons.collectAsState()
     var searchTerm by rememberSaveable { mutableStateOf(value = "") }
-    var showRequestedIcons by rememberSaveable { mutableStateOf(false) }
 
     Crossfade(
         targetState = iconInfoModel != null,
@@ -67,21 +65,13 @@ fun Home(
                     floatingActionButton = {
                         ExtendedFloatingActionButton(
                             onClick = {
-                                lawniconsViewModel.getRequestedIcons().let { showRequestedIcons = true }
+                                onNavigate(Destinations.REQUEST_ICONS)
                             },
                             icon = { Icon(painterResource(R.drawable.upload), "") },
                             text = { Text(text = "Request icons") },
                         )
                     },
                 ) {
-                    requestedIcons?.let {
-                        RequestIcons(
-                            requestedIcons = it.requestedIcons,
-                            iconCount = it.iconCount,
-                            showRequestedIcons = showRequestedIcons,
-                            onDismissRequest = { showRequestedIcons = false },
-                        )
-                    }
                     iconInfoModel?.let {
                         IconPreviewGrid(
                             iconInfo = it.iconInfo,
