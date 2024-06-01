@@ -1,4 +1,4 @@
-# 自用lawnicons图标补全，官方要求太高，我自己瞎话，有需要补全的发送软件报名到easonkissuny@gmail.com,随缘更新
+# 自用lawnicons图标补全，官方要求太高，我自己瞎画，有需要补全的发送软件包名到easonkissuny@gmail.com,随缘更新
 
 
 # Lawnicons
