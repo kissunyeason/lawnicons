@@ -11565,21 +11565,21 @@
   <item component="ComponentInfo{com.fimo.camera/com.fimo.camera.app.StartActivity}" drawable="fimo" name="Fimo" />
   <item component="ComponentInfo{com.gotokeep.keep/com.gotokeep.keep.splash.SplashActivity}" drawable="gotokeep" name="Keep ~~ gotokeep" />
   <item component="ComponentInfo{com.didjdk.adbhelper/com.didjdk.adbhelper.ConnectActivity}" drawable="adbhelper" name="甲壳虫ADB助手 ~~ adbhelper" />
- <item component="ComponentInfo{cn.gov.tax.its/cn.gov.tax.its.MainActivity}" drawable="cn_gov_tax_its" name="个人所得税 ~~ gerensuodeishui" />
- <item component="ComponentInfo{org.getlantern.lantern/org.getlantern.lantern.MainActivity}" drawable="org_getlantern_lantern" name="蓝灯 ~~ lantern" />
- <item component="ComponentInfo{com.midea.ai.appliances/com.midea.meiju.welcome.WelcomeActivityMeiJu}" drawable="com_midea_ai_appliances" name="美的美居 ~~ meidimeiju" />
- <item component="ComponentInfo{com.pingan.carowner/com.pingan.carowner.activity.SplashActivity}" drawable="com_pingan_carowner" name="平安好车主 ~~ pinganhaochezhu" />
- <item component="ComponentInfo{com.pxjy.app.teacher/com.pxjy.SplashActivity}" drawable="com_pxjy_app_teacher" name="朴新师生教师版 ~~ puxinshishengjiaoshiban" />
- <item component="ComponentInfo{com.spdbccc.app/com.spdbccc.app.sp.splash.activity.SplashActivity}" drawable="com_spdbccc_app" name="喜大普奔 ~~ xidapuben" />
- <item component="ComponentInfo{cn.com.spdb.mobilebank.per/cn.com.spdb.mobilebank.per.activity.SplashActivity}" drawable="cn_com_spdb_mobilebank_per" name="浦发银行 ~~ pufayinhang" />
- <item component="ComponentInfo{com.tencent.docs/com.tencent.docs.DocsFlutterActivity}" drawable="com_tencent_docs" name="腾讯文档 ~~ tengxunwedang" />
- <item component="ComponentInfo{com.fenbi.android.solar/com.fenbi.android.solar.activity.RouterActivity}" drawable="com_fenbi_android_solar" name="小猿搜题 ~~ xiaoyuansouti" />
- <item component="ComponentInfo{com.xkw.client/com.zxxk.page.main.LauncherActivity}" drawable="com_xkw_client" name="学科网 ~~ xuekewang" />
- <item component="ComponentInfo{com.sunboxsoft.charge.institute/vue.activity.Activity_Welcom}" drawable="com_sunboxsoft_charge_institute" name="中油好客 e 站 ~~ zhongyouhaokeezhan" />
- <item component="ComponentInfo{cn.ommiao.iconpackcreator/cn.ommiao.iconpackcreatorpro.MainActivity}" drawable="cn_ommiao_iconpackcreator" name="做你的图标包 ~~ zuonidetubiaobao" />
- <item component="ComponentInfo{com.pluginassistant.lol/com.jiezi.lolmodifier.StartActivity}" drawable="com_pluginassistant_lol" name="lol高刷 ~~ lol" />
- <item component="ComponentInfo{cn.myflv.noactive/cn.myflv.noactive.ui.page.HomePage}" drawable="cn_myflv_noactive" name="noactive ~~ noactive" />
- <item component="ComponentInfo{com.linkbox.plus.android/com.linkbox.app.LauncherActivity}" drawable="com_linkbox_plus_android" name="TeleBox ~~ TeleBox" />
- <item component="ComponentInfo{com.tencent.lolm/com.tencent.lolm.lgame}" drawable="com_tencent_lolm" name="英雄联盟手游 ~~ yingxionglianmengshouyou" />
+  <item component="ComponentInfo{cn.gov.tax.its/cn.gov.tax.its.MainActivity}" drawable="cn_gov_tax_its" name="个人所得税 ~~ gerensuodeishui" />
+  <item component="ComponentInfo{org.getlantern.lantern/org.getlantern.lantern.MainActivity}" drawable="org_getlantern_lantern" name="蓝灯 ~~ lantern" />
+  <item component="ComponentInfo{com.midea.ai.appliances/com.midea.meiju.welcome.WelcomeActivityMeiJu}" drawable="com_midea_ai_appliances" name="美的美居 ~~ meidimeiju" />
+  <item component="ComponentInfo{com.pingan.carowner/com.pingan.carowner.activity.SplashActivity}" drawable="com_pingan_carowner" name="平安好车主 ~~ pinganhaochezhu" />
+  <item component="ComponentInfo{com.pxjy.app.teacher/com.pxjy.SplashActivity}" drawable="com_pxjy_app_teacher" name="朴新师生教师版 ~~ puxinshishengjiaoshiban" />
+  <item component="ComponentInfo{com.spdbccc.app/com.spdbccc.app.sp.splash.activity.SplashActivity}" drawable="com_spdbccc_app" name="喜大普奔 ~~ xidapuben" />
+  <item component="ComponentInfo{cn.com.spdb.mobilebank.per/cn.com.spdb.mobilebank.per.activity.SplashActivity}" drawable="cn_com_spdb_mobilebank_per" name="浦发银行 ~~ pufayinhang" />
+  <item component="ComponentInfo{com.tencent.docs/com.tencent.docs.DocsFlutterActivity}" drawable="com_tencent_docs" name="腾讯文档 ~~ tengxunwedang" />
+  <item component="ComponentInfo{com.fenbi.android.solar/com.fenbi.android.solar.activity.RouterActivity}" drawable="com_fenbi_android_solar" name="小猿搜题 ~~ xiaoyuansouti" />
+  <item component="ComponentInfo{com.xkw.client/com.zxxk.page.main.LauncherActivity}" drawable="com_xkw_client" name="学科网 ~~ xuekewang" />
+  <item component="ComponentInfo{com.sunboxsoft.charge.institute/vue.activity.Activity_Welcom}" drawable="com_sunboxsoft_charge_institute" name="中油好客 e 站 ~~ zhongyouhaokeezhan" />
+  <item component="ComponentInfo{cn.ommiao.iconpackcreator/cn.ommiao.iconpackcreatorpro.MainActivity}" drawable="cn_ommiao_iconpackcreator" name="做你的图标包 ~~ zuonidetubiaobao" />
+  <item component="ComponentInfo{com.pluginassistant.lol/com.jiezi.lolmodifier.StartActivity}" drawable="com_pluginassistant_lol" name="lol高刷 ~~ lol" />
+  <item component="ComponentInfo{cn.myflv.noactive/cn.myflv.noactive.ui.page.HomePage}" drawable="cn_myflv_noactive" name="noactive ~~ noactive" />
+  <item component="ComponentInfo{com.linkbox.plus.android/com.linkbox.app.LauncherActivity}" drawable="com_linkbox_plus_android" name="TeleBox ~~ TeleBox" />
+  <item component="ComponentInfo{com.tencent.lolm/com.tencent.lolm.lgame}" drawable="com_tencent_lolm" name="英雄联盟手游 ~~ yingxionglianmengshouyou" />
 
 </resources>
