@@ -11575,7 +11575,7 @@
  <item component="ComponentInfo{com.tencent.docs/com.tencent.docs.DocsFlutterActivity}" drawable="com_tencent_docs" name="腾讯文档 ~~ tengxunwedang" />
  <item component="ComponentInfo{com.fenbi.android.solar/com.fenbi.android.solar.activity.RouterActivity}" drawable="com_fenbi_android_solar" name="小猿搜题 ~~ xiaoyuansouti" />
  <item component="ComponentInfo{com.xkw.client/com.zxxk.page.main.LauncherActivity}" drawable="com_xkw_client" name="学科网 ~~ xuekewang" />
- <item component="ComponentInfo{com.sunboxsoft.charge.institute/vue.activity.Activity_Welcom}" drawable="com.sunboxsoft_charge_institute" name="中油好客 e 站 ~~ zhongyouhaokeezhan" />
+ <item component="ComponentInfo{com.sunboxsoft.charge.institute/vue.activity.Activity_Welcom}" drawable="com_sunboxsoft_charge_institute" name="中油好客 e 站 ~~ zhongyouhaokeezhan" />
  <item component="ComponentInfo{cn.ommiao.iconpackcreator/cn.ommiao.iconpackcreatorpro.MainActivity}" drawable="cn_ommiao_iconpackcreator" name="做你的图标包 ~~ zuonidetubiaobao" />
  <item component="ComponentInfo{com.pluginassistant.lol/com.jiezi.lolmodifier.StartActivity}" drawable="com_pluginassistant_lol" name="lol高刷 ~~ lol" />
  <item component="ComponentInfo{cn.myflv.noactive/cn.myflv.noactive.ui.page.HomePage}" drawable="cn_myflv_noactive" name="noactive ~~ noactive" />
