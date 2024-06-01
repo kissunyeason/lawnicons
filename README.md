@@ -1,3 +1,6 @@
+# 自用lawnicons图标补全，官方要求太高，我自己瞎话，有需要补全的发送软件报名到easonkissuny@gmail.com,随缘更新
+
+
 # Lawnicons
 
 [![Build debug APK](https://github.com/LawnchairLauncher/lawnicons/actions/workflows/build_debug_apk.yml/badge.svg)](https://github.com/LawnchairLauncher/lawnicons/actions/workflows/build_debug_apk.yml)
